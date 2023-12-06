@@ -119,9 +119,13 @@ p {
   list-style-type: none;
 }
 
-header .navbar .logo {
+header .navbar {
   height: 200px;
   width: 200px;
+}
+.logo {
+  height: auto;
+  width: 100%;
 }
 
 /* footer layout */
