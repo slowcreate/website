@@ -139,6 +139,10 @@ a:active {
 
 /* footer layout */
 
+#bookfooter {
+  background-image: url(billeder/bogfooter.svg);
+}
+
 .footer {
   list-style: disc;
   display: flex;
