@@ -26,10 +26,12 @@ h2,
 h3,
 a {
   font-family: "Noto Sans", sans-serif;
+  color: #faf5c3;
 }
 
 p {
   font-family: "Trykker", serif;
+  color: #faf5c3;
 }
 
 /* header */
@@ -165,7 +167,7 @@ img.insta {
   footer {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
-    background-color: #2d3691;
+    background-color: #12233f;
     width: 100%;
     padding-left: 20px;
     z-index: 1;
