@@ -29,6 +29,12 @@ a {
   color: #faf5c3;
 }
 
+h1 {
+  font-size: 5cqw;
+  text-align: center;
+  border-bottom: 1px solid #faf5c3;
+}
+
 p {
   font-family: "Trykker", serif;
   color: #faf5c3;
