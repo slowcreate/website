@@ -35,9 +35,18 @@ h1 {
   border-bottom: 1px solid #faf5c3;
 }
 
+h4 {
+  font-family: "Noto Sans", sans-serif;
+  color: #faf5c3;
+}
+
 p {
   font-family: "Trykker", serif;
   color: #faf5c3;
+}
+
+footer p {
+  font-size: 0.9rem;
 }
 
 /* header */
@@ -145,6 +154,10 @@ a:active {
 
 /* footer layout */
 
+footer a {
+  text-decoration: none;
+}
+
 #bookfooter {
   width: 250%;
   height: 150%;
@@ -160,9 +173,18 @@ a:active {
   padding: 30px;
   align-items: start;
 }
-li:hover {
-  color: chartreuse;
+footer li {
+  list-style: none;
+  padding-bottom: 5%;
 }
+
+li:hover {
+  text-decoration: underline;
+}
+footer a:hover {
+  border: none;
+}
+
 .footerto {
   list-style: disc;
   display: flex;
@@ -233,6 +255,9 @@ footer {
   }
   .some {
     gap: 20px;
+  }
+  .footerto {
+    display: none;
   }
 }
 
