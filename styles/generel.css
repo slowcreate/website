@@ -90,6 +90,9 @@ footer p {
   .hamburger {
     display: block;
   }
+  /* .burgerbillede {
+    background-image: url(/billeder/burgerbog.svg);
+  } */
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
@@ -234,7 +237,7 @@ footer {
   max-width: 40px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   footer {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;

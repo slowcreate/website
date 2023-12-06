@@ -3,9 +3,10 @@
   border-bottom: none;
   font-size: 3rem;
   text-align: left;
-  background-color: #ffc0f9;
+  background-color: #fdd1f9;
   color: #12233f;
   max-width: 85%;
+  padding-left: 1.5%;
 }
 
 .video_container {
@@ -17,14 +18,54 @@
 .openinfo,
 .addressinfo {
   margin-top: 10%;
+  margin-left: 8%;
 }
 
+#plantecontainer {
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 43/50;
+  top: 95%;
+  left: 1%;
+}
 #indexplante {
   background-image: url(/billeder/indexplante.svg);
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  width: 133.5%;
+  height: 133%;
   position: relative;
   grid-column: 1;
-  top: -30%;
+}
+
+.story,
+.reviews {
+  padding: 15%;
+  z-index: 10;
+}
+
+.picture_text1 h3 {
+  transform: translate(18%, 371%);
+}
+.picture_text1 a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+@media (min-width: 800px) {
+  .picture_text1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 800px) {
+  #indexh1 {
+    margin-top: 25%;
+  }
+  #plantecontainer {
+    top: 133%;
+    z-index: -10;
+  }
 }
