@@ -114,18 +114,19 @@ p {
   .nav-menu a:hover {
     color: #f5b9ba;
   }
+  header .navbar .logo {
+    max-height: 100px;
+    max-width: 100%;
+  }
 }
+
 .nav-menu {
   list-style-type: none;
 }
 
-header .navbar {
-  height: 200px;
-  width: 200px;
-}
-.logo {
-  height: auto;
-  width: 100%;
+header .navbar .logo {
+  max-height: auto;
+  max-width: 160px;
 }
 
 /* footer layout */
