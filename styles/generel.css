@@ -21,6 +21,17 @@ body {
   background-color: #12233f;
 }
 
+h1,
+h2,
+h3,
+a {
+  font-family: "Noto Sans", sans-serif;
+}
+
+p {
+  font-family: "Trykker", serif;
+}
+
 /* header */
 .navbar {
   min-height: 70px;
