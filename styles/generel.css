@@ -10,6 +10,12 @@ img {
   height: auto;
   display: block;
 }
+/* fonte
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Trykker', serif;
+*/
+
+/* generelt **/
 
 body {
   background-color: #12233f;
