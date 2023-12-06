@@ -132,6 +132,11 @@ header .navbar a {
   text-decoration: none;
 }
 
+a:hover,
+a:active {
+  border: 1px solid #faf5c3;
+}
+
 /* footer layout */
 
 .footer {
