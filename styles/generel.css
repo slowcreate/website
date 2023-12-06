@@ -146,7 +146,11 @@ a:active {
 /* footer layout */
 
 #bookfooter {
-  background-image: url(billeder/bogfooter.svg);
+  width: 250%;
+  height: 150%;
+  position: relative;
+  background-image: url(/billeder/bogfooter.svg);
+  background-size: cover;
 }
 
 .footer {
@@ -182,8 +186,8 @@ footer {
   margin-bottom: 0;
   padding-left: 20px;
 }
-img.insta {
-  max-width: 60px;
+.some img {
+  max-width: 40px;
 }
 
 @media (max-width: 1000px) {
