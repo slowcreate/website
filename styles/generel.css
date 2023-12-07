@@ -25,7 +25,8 @@ h1,
 h2,
 h3,
 a {
-  font-family: "Noto Sans", sans-serif;
+  font-family: inter;
+  font-weight: 500;
   color: #faf5c3;
 }
 
@@ -47,6 +48,10 @@ p {
 
 footer p {
   font-size: 0.9rem;
+}
+
+main {
+  padding-bottom: 100px;
 }
 
 /* header */
@@ -162,11 +167,21 @@ footer a {
 }
 
 #bookfooter {
-  width: 250%;
-  height: 150%;
+  width: 107%;
+  height: 100%;
   position: relative;
+  aspect-ratio: 10/1;
+  top: -112%;
+  left: -21px;
+}
+#bog {
   background-image: url(/billeder/bogfooter.svg);
   background-size: cover;
+  width: 240%;
+  height: 240%;
+  position: absolute;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .footer {
