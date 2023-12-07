@@ -1,0 +1,10 @@
+.booking_container {
+  background-color: #f2cbdd;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
