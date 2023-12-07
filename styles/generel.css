@@ -162,12 +162,12 @@ footer a {
 }
 
 #bookfooter {
-  width: 100%;
+  width: 107%;
   height: 100%;
   position: relative;
   aspect-ratio: 10/1;
-  top: -82%;
-  left: 0;
+  top: -112%;
+  left: -21px;
 }
 #bog {
   background-image: url(/billeder/bogfooter.svg);
@@ -175,6 +175,8 @@ footer a {
   width: 240%;
   height: 240%;
   position: absolute;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .footer {
