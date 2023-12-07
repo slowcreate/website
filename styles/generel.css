@@ -25,7 +25,8 @@ h1,
 h2,
 h3,
 a {
-  font-family: "Noto Sans", sans-serif;
+  font-family: inter;
+  font-weight: 500;
   color: #faf5c3;
 }
 
