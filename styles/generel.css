@@ -49,6 +49,10 @@ footer p {
   font-size: 0.9rem;
 }
 
+main {
+  padding-bottom: 100px;
+}
+
 /* header */
 .navbar {
   min-height: 70px;
