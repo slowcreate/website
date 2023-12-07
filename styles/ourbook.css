@@ -15,9 +15,9 @@
     justify-content: space-around;
     padding: 20px;
   }
-  .flex_col > :last-child {
+  /* .flex_col > :last-child {
     margin-top: auto;
-  }
+  } */
   .flex_col img {
     max-width: 400px;
     height: auto;
