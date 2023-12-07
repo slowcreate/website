@@ -1,10 +1,87 @@
+/** booking delen**/
+@media (min-width: 800px) {
+  .booking_container {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 100px;
+    padding: 20px;
+  }
+
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid_1-2 img {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  .booking_container h2 {
+    font-size: 3cqw;
+  }
+}
 .booking_container {
   background-color: #f2cbdd;
-  grid-column: 2/3;
-  grid-row: 1/2;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.grid_1-2 {
+  gap: 20px;
 }
 
-.grid_1-2 {
+label,
+input,
+textarea,
+select,
+button {
+  display: block;
+}
+
+form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.form-felt {
+  display: grid;
+  gap: 3px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: #fbeaf2;
+  font-family: "Trykker", serif;
+  font-size: 1.2rem;
+  color: #605959;
+  border: none;
+  gap: 10px;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.send_knap button[type="submit"] {
+  background-color: #bf8fa5;
+  font-family: inter;
+  font-weight: 500;
+  color: #faf5c3;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 2cqw;
+  position: relative;
+  left: 72%;
+}
+
+.send_knap button[type="submit"]:hover {
+  opacity: 80%;
+}
+.booking_container h2 {
+  font-size: 5cqw;
+  color: #12233f;
+  padding-bottom: 30px;
 }
