@@ -94,7 +94,6 @@ main {
   background-color: #faf5c3;
 }
 
-<<<<<<< HEAD
 /* logo style */
 .logo img {
   max-height: 100px;
@@ -108,12 +107,7 @@ main {
     max-width: 200px;
     padding-top: 1rem;
   }
-=======
-.logo {
-  max-height: 2rem;
-  max-width: 2rem;
->>>>>>> 123bff135d6fccbf96e962bfbb5b0f28d6021e29
-}
+
 
 @media (max-width: 780px) {
   .hamburger {
