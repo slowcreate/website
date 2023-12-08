@@ -93,12 +93,11 @@ main {
   background-color: #faf5c3;
 }
 
+.logo {
+  max-height: auto;
+  max-width: 50px;
+}
 @media (max-width: 780px) {
-  .logo {
-    max-height: auto;
-    max-width: 50px;
-  }
-
   .hamburger {
     display: block;
   }
