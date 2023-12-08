@@ -51,6 +51,7 @@ footer p {
 }
 
 main {
+  padding-top: 150px;
   padding-bottom: 100px;
   max-width: 1200px;
   margin: auto;
@@ -94,8 +95,8 @@ main {
 }
 
 .logo {
-  max-height: auto;
-  max-width: 50px;
+  max-height: 2rem;
+  max-width: 2rem;
 }
 @media (max-width: 780px) {
   .hamburger {
@@ -143,10 +144,10 @@ main {
   .nav-menu a:hover {
     color: #f5b9ba;
   }
-  /* header .navbar .logo {
+  header .navbar .logo {
     max-height: 100px;
     max-width: 100%;
-  } */
+  }
 }
 
 .nav-menu {
