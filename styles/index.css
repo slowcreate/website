@@ -1,4 +1,5 @@
 #indexh1 {
+  position: absolute;
   margin-top: 5%;
   border-bottom: none;
   font-size: 2.8rem;
@@ -6,9 +7,8 @@
   background-color: #fdd1f9;
   color: #12233f;
   max-width: 85%;
-  padding-left: 1.5%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  left: 0;
+  padding: 1%;
 }
 
 .video_container {
@@ -19,8 +19,7 @@
 
 .openinfo,
 .addressinfo {
-  margin-top: 10%;
-  margin-left: 8%;
+  margin-top: 55%;
 }
 
 #plantecontainer {
