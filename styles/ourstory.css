@@ -1,0 +1,52 @@
+.ourstory_container p {
+  margin: 40px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 5cqw;
+  text-align: center;
+}
+
+h3 {
+  font-size: 4cqw;
+  text-indent: 3rem;
+  padding-top: 50px;
+}
+
+.contributors_container p {
+  margin: 40px;
+  padding-top: 0px;
+}
+
+.contributors_container img {
+  max-width: 300px;
+  max-height: 300px;
+  margin: auto;
+}
+
+@media (min-width: 800px) {
+  h3 {
+    font-size: 2cqw;
+    text-indent: 3rem;
+    padding-top: 50px;
+  }
+
+  .contributor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  img {
+    grid-column: 2/3;
+    padding-left: 30px;
+    padding-top: 20px;
+    max-width: 100px;
+    max-height: 250px;
+  }
+
+  .ourstory_container p {
+    margin: 65px;
+    font-size: 20px;
+  }
+}
