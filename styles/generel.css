@@ -94,6 +94,11 @@ main {
 }
 
 @media (max-width: 780px) {
+  .logo {
+    max-height: auto;
+    max-width: 50px;
+  }
+
   .hamburger {
     display: block;
   }
@@ -139,10 +144,10 @@ main {
   .nav-menu a:hover {
     color: #f5b9ba;
   }
-  header .navbar .logo {
+  /* header .navbar .logo {
     max-height: 100px;
     max-width: 100%;
-  }
+  } */
 }
 
 .nav-menu {
