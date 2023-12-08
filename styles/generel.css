@@ -78,7 +78,7 @@ main {
 }
 
 .nav-link:hover {
-  color: #fadec0;
+  opacity: 90%;
 }
 .hamburger {
   display: none;
@@ -122,7 +122,7 @@ main {
     top: 0px;
     gap: 0;
     flex-direction: column;
-    background-color: #ffead2;
+    background-color: #12233f;
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -137,12 +137,12 @@ main {
   .nav-menu .nav-item a {
     font-family: "Crimson Pro", serif;
     text-decoration: none;
-    color: #fc5b5f;
+    color: #faf5c3;
     font-size: 2rem;
   }
 
   .nav-menu a:hover {
-    color: #f5b9ba;
+    opacity: 90%;
   }
   header .navbar .logo {
     max-height: 100px;
