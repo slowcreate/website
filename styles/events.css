@@ -12,6 +12,7 @@
   scroll-snap-type: x mandatory;
   border-radius: 10px;
   margin-bottom: 10%;
+  margin-top: 5%;
 }
 
 .event_box img {
