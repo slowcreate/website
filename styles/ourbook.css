@@ -12,23 +12,22 @@
   margin: 20px 10px 20px 10px;
 }
 
-#bookcontainer {
-  position: absolute;
-  width: 7%;
-  aspect-ratio: 151/93;
-  top: 127%;
-  left: 24%;
-}
-#bookstack {
-  background-image: url(/billeder/bookstack.svg);
-  background-size: cover;
-  width: 133.5%;
-  height: 133%;
-  position: relative;
-  grid-column: 1;
-}
-
 @media (min-width: 800px) {
+  #bookcontainer {
+    position: absolute;
+    width: 7%;
+    aspect-ratio: 151/93;
+    top: 127%;
+    left: 24%;
+  }
+  #bookstack {
+    background-image: url(/billeder/bookstack.svg);
+    background-size: cover;
+    width: 133.5%;
+    height: 133%;
+    position: relative;
+    grid-column: 1;
+  }
   .omos {
     text-align: right;
     margin-right: 200px;
