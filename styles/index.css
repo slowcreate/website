@@ -1,3 +1,8 @@
+main {
+  padding-top: 0;
+  margin: 0;
+}
+
 #indexh1 {
   position: absolute;
   margin-top: 5%;
@@ -8,26 +13,31 @@
   color: #12233f;
   max-width: 85%;
   left: 0;
-  padding: 1%;
+  padding: 3%;
+}
+
+video {
+  width: 760px;
 }
 
 .video_container {
   display: grid;
+  gap: 5%;
   grid-template-columns: 1fr 1fr 2fr;
-  grid-template-rows: 1fr 1fr;
 }
 
 .openinfo,
 .addressinfo {
-  margin-top: 55%;
+  margin-top: 100%;
+  margin-top: 118%;
+  margin-left: 10%;
 }
 
 #plantecontainer {
   position: absolute;
-  width: 15%;
+  width: 20%;
   aspect-ratio: 43/50;
-  top: 95%;
-  left: 1%;
+  top: 120%;
 }
 #indexplante {
   background-image: url(/billeder/indexplante.svg);
@@ -56,17 +66,40 @@
 }
 
 @media (min-width: 800px) {
+  main {
+    padding-top: 0;
+    max-width: none;
+  }
+
   .picture_text1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .openinfo,
+  .addressinfo {
+    margin-top: 100%;
+    margin-top: 222%;
+    margin-left: 9%;
+  }
 }
 @media (max-width: 800px) {
   #indexh1 {
-    margin-top: 25%;
+    margin-top: -18%;
+    z-index: -10;
+    max-width: 92%;
   }
   #plantecontainer {
-    top: 133%;
+    top: 109%;
     z-index: -10;
+    width: 36%;
+  }
+  video {
+    width: 400px;
+    position: absolute;
+    left: 10%;
+    z-index: -20;
+  }
+  main {
+    padding-top: 30%;
   }
 }
