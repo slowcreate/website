@@ -57,7 +57,7 @@ footer p {
 }
 
 main {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 100px;
   max-width: 1200px;
   margin: auto;
@@ -152,7 +152,7 @@ main {
     left: 0;
   }
   .nav-menu .nav-item a {
-    font-family: "Crimson Pro", serif;
+    font-family: inter;
     text-decoration: none;
     color: #faf5c3;
     font-size: 2rem;
@@ -232,6 +232,10 @@ footer a:hover {
   display: flex;
   flex-direction: column;
 }
+
+.footerto:first-child {
+  padding-top: 50px;
+}
 /* .some {
   /* display: flex;
   flex-direction: column;
@@ -300,6 +304,17 @@ footer {
   }
   .footerto {
     display: none;
+  }
+  #bog {
+    width: 162%;
+    height: 165%;
+  }
+}
+
+@media (max-width: 400px) {
+  #bog {
+    width: 162%;
+    height: 165%;
   }
 }
 

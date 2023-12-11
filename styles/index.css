@@ -29,8 +29,7 @@ video {
 
 .openinfo,
 .addressinfo {
-  margin-top: 100%;
-  margin-top: 118%;
+  margin-top: 125px;
   margin-left: 10%;
 }
 
@@ -87,7 +86,7 @@ video {
 @media (min-width: 1050px) {
   .openinfo,
   .addressinfo {
-    margin-top: 118%;
+    margin-top: 246px;
   }
 }
 @media (max-width: 800px) {
@@ -98,7 +97,7 @@ video {
   }
 
   #plantecontainer {
-    top: 109%;
+    top: 107%;
     z-index: -10;
     width: 36%;
   }
