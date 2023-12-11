@@ -232,6 +232,10 @@ footer a:hover {
   display: flex;
   flex-direction: column;
 }
+
+.footerto:first-child {
+  padding-top: 50px;
+}
 /* .some {
   /* display: flex;
   flex-direction: column;
