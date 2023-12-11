@@ -32,4 +32,37 @@
   .grid_6-2 img {
     border: 10px solid #faf5c3;
   }
+
+  #strikkekat {
+    position: absolute;
+    width: 5%;
+    aspect-ratio: 151/93;
+    top: 993px;
+    left: 15%;
+    z-index: -1;
+  }
+  #strikkekatten {
+    background-image: url(/billeder/strikkekat.svg);
+    background-size: cover;
+    width: 173.5%;
+    height: 309%;
+    position: relative;
+    grid-column: 1;
+  }
+  #laesekat {
+    position: absolute;
+    width: 6%;
+    aspect-ratio: 151/93;
+    top: 380px;
+    left: 80%;
+    z-index: -1;
+  }
+  #laesekatten {
+    background-image: url(/billeder/laesekat.svg);
+    background-size: cover;
+    width: 101.5%;
+    height: 309%;
+    position: relative;
+    grid-column: 1;
+  }
 }
