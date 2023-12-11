@@ -37,7 +37,7 @@ video {
   position: absolute;
   width: 20%;
   aspect-ratio: 43/50;
-  top: 120%;
+  top: 750px;
 }
 #indexplante {
   background-image: url(/billeder/indexplante.svg);
