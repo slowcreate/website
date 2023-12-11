@@ -14,6 +14,7 @@ main {
   max-width: 85%;
   left: 0;
   padding: 3%;
+  opacity: 90%;
 }
 
 video {
@@ -78,8 +79,15 @@ video {
   .openinfo,
   .addressinfo {
     margin-top: 100%;
-    margin-top: 222%;
+    margin-top: 260px;
     margin-left: 9%;
+  }
+}
+
+@media (min-width: 1050px) {
+  .openinfo,
+  .addressinfo {
+    margin-top: 118%;
   }
 }
 @media (max-width: 800px) {
@@ -88,6 +96,7 @@ video {
     z-index: -10;
     max-width: 92%;
   }
+
   #plantecontainer {
     top: 109%;
     z-index: -10;
@@ -96,7 +105,7 @@ video {
   video {
     width: 400px;
     position: absolute;
-    left: 10%;
+    right: 0;
     z-index: -20;
   }
   main {
