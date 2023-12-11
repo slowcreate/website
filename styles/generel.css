@@ -90,6 +90,33 @@ main {
   display: none;
   cursor: pointer;
 }
+
+/* .burgerbillede {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 89/75;
+  top: 20px;
+  right: 20px;
+}
+
+.openbook {
+  position: absolute;
+  width: 12%;
+  aspect-ratio: 51/37;
+  top: 20px;
+  right: 15px;
+}
+
+.hide {
+  display: none;
+} */
+
+/* #burgerbog {
+  background-image: url(/billeder/burgerbog.svg);
+  width: 10%;
+  height: 100%;
+} */
+
 .bar {
   display: block;
   width: 25px;

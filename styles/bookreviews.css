@@ -39,7 +39,7 @@
     aspect-ratio: 151/93;
     top: 993px;
     left: 15%;
-    z-index: -1;
+    z-index: -2;
   }
   #strikkekatten {
     background-image: url(/billeder/strikkekat.svg);
@@ -55,7 +55,7 @@
     aspect-ratio: 151/93;
     top: 380px;
     left: 80%;
-    z-index: -1;
+    z-index: -2;
   }
   #laesekatten {
     background-image: url(/billeder/laesekat.svg);
