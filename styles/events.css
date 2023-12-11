@@ -70,6 +70,10 @@ img {
 } */
 
 /** booking delen**/
+.eventbooking {
+  text-align: center;
+  font-size: 8cqw;
+}
 
 @media (min-width: 800px) {
   .eventbooking {
