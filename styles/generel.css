@@ -57,7 +57,7 @@ footer p {
 }
 
 main {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 100px;
   max-width: 1200px;
   margin: auto;
@@ -300,6 +300,17 @@ footer {
   }
   .footerto {
     display: none;
+  }
+  #bog {
+    width: 162%;
+    height: 165%;
+  }
+}
+
+@media (max-width: 400px) {
+  #bog {
+    width: 162%;
+    height: 165%;
   }
 }
 
