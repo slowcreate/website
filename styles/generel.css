@@ -152,7 +152,7 @@ main {
     left: 0;
   }
   .nav-menu .nav-item a {
-    font-family: "Crimson Pro", serif;
+    font-family: inter;
     text-decoration: none;
     color: #faf5c3;
     font-size: 2rem;
