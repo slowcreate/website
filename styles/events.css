@@ -146,10 +146,10 @@ textarea {
 }
 
 .send_knap button[type="submit"] {
-  background-color: #bf8fa5;
+  background-color: #faf5c3;
   font-family: inter;
   font-weight: 500;
-  color: #faf5c3;
+  color: #12233f;
   border-radius: 5px;
   border: none;
   padding: 10px;
