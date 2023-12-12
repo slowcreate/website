@@ -4,15 +4,11 @@
 }
 
 h2 {
-  font-size: 5cqw;
-  text-align: center;
-}
-
-h3 {
   font-size: 4cqw;
   text-indent: 3rem;
   padding-top: 50px;
 }
+
 /* 
 .ourstory_container video {
   margin: auto;
@@ -79,7 +75,7 @@ h3 {
 }
 
 @media (min-width: 800px) {
-  h3 {
+  h2 {
     font-size: 2cqw;
     text-indent: 3rem;
     padding-top: 50px;
