@@ -206,8 +206,16 @@ header .navbar a {
   text-decoration: none;
 }
 
+a {
+  border: 1px solid rgba(250, 245, 195, 0);
+}
+
 a:hover,
 a:active {
+  border: 1px solid #faf5c3;
+}
+
+.active {
   border: 1px solid #faf5c3;
 }
 
