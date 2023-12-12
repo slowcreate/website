@@ -17,7 +17,7 @@ main {
   opacity: 90%;
 }
 
-video {
+.kortvideo {
   width: 760px;
 }
 
@@ -96,16 +96,21 @@ video {
     max-width: 92%;
   }
 
+  .story {
+    margin-top: 170px;
+  }
+
   #plantecontainer {
-    top: 107%;
+    top: 124%;
     z-index: -10;
     width: 36%;
   }
-  video {
+  .kortvideo {
     width: 400px;
     position: absolute;
     right: 0;
     z-index: -20;
+    margin-top: -180px;
   }
   main {
     padding-top: 30%;
