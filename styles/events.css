@@ -100,6 +100,9 @@ img {
   .booking_container h2 {
     font-size: 3cqw;
   }
+  .send_knap button[type="submit"] {
+    font-size: 4cqw;
+  }
 }
 .booking_container {
   background-color: #f2cbdd;
@@ -157,6 +160,7 @@ textarea {
   font-size: 2cqw;
   position: relative;
   left: 72%;
+  margin-bottom: 2%;
 }
 
 .send_knap button[type="submit"]:hover {
