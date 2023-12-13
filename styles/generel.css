@@ -211,11 +211,11 @@ header .navbar a {
   text-decoration: none;
 }
 
-a {
+.navbar a {
   border: 1px solid rgba(250, 245, 195, 0);
 }
 
-a:hover {
+.navbar a:hover {
   border: 1px solid #faf5c3;
 }
 
