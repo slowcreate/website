@@ -48,21 +48,28 @@ main {
   grid-column: 1;
 }
 
-.story,
-.reviews {
+.text_on_pic {
   padding: 15%;
   z-index: 10;
 }
 
-.picture_text1 h3 {
-  transform: translate(18%, 371%);
+.picture_text1:first-child {
+  transform: translate(48px, 350%);
 }
+.picture_text1:nth-child(2) {
+  transform: translate(28px, 350%);
+}
+
 .picture_text1 a {
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-weight: 900;
   font-style: italic;
   font-size: 2rem;
+}
+
+.picture_text1 a:hover {
+  border: none;
 }
 
 @media (min-width: 800px) {
@@ -74,7 +81,18 @@ main {
   .picture_text1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-align: center;
   }
+  .text_on_pic {
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+
+  .picture_text1 h3 {
+    transform: translate(0, 350%);
+  }
+
   .openinfo,
   .addressinfo {
     margin-top: 100%;
@@ -96,7 +114,7 @@ main {
     max-width: 92%;
   }
 
-  .story {
+  .picture_text1 {
     margin-top: 170px;
   }
 
