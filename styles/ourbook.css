@@ -17,8 +17,8 @@
     position: absolute;
     width: 7%;
     aspect-ratio: 151/93;
-    top: 805px;
-    left: 350px;
+    top: 850px;
+    left: 400px;
   }
   #bookstack {
     background-image: url(/billeder/bookstack.svg);
