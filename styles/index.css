@@ -40,7 +40,7 @@ main {
   top: 750px;
 }
 #indexplante {
-  background-image: url(/billeder/indexplante.svg);
+  background-image: url(billeder/indexplante.svg);
   background-size: cover;
   width: 133.5%;
   height: 133%;

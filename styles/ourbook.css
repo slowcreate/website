@@ -21,7 +21,7 @@
     left: 400px;
   }
   #bookstack {
-    background-image: url(/billeder/bookstack.svg);
+    background-image: url(billeder/bookstack.svg);
     background-size: cover;
     width: 133.5%;
     height: 133%;
