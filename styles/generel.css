@@ -238,7 +238,7 @@ footer a {
   left: -21px;
 }
 #bog {
-  background-image: url(/billeder/bogfooter.svg);
+  background-image: url(billeder/bogfooter.svg);
   background-size: cover;
   width: 240%;
   height: 240%;

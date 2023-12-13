@@ -61,7 +61,7 @@
     z-index: -2;
   }
   #strikkekatten {
-    background-image: url(/billeder/strikkekat.svg);
+    background-image: url(billeder/strikkekat.svg);
     background-size: cover;
     width: 173.5%;
     height: 309%;
@@ -77,7 +77,7 @@
     z-index: -2;
   }
   #laesekatten {
-    background-image: url(/billeder/laesekat.svg);
+    background-image: url(billeder/laesekat.svg);
     background-size: cover;
     width: 101.5%;
     height: 309%;
