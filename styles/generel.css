@@ -26,8 +26,13 @@ h2,
 h3,
 a {
   font-family: inter;
-  font-weight: 500;
   color: #faf5c3;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
 }
 
 h1 {
@@ -206,11 +211,11 @@ header .navbar a {
   text-decoration: none;
 }
 
-a {
+.navbar a {
   border: 1px solid rgba(250, 245, 195, 0);
 }
 
-a:hover {
+.navbar a:hover {
   border: 1px solid #faf5c3;
 }
 
