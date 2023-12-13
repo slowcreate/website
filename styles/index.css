@@ -53,11 +53,8 @@ main {
   z-index: 10;
 }
 
-.picture_text1:first-child {
-  transform: translate(48px, 350%);
-}
-.picture_text1:nth-child(2) {
-  transform: translate(28px, 350%);
+.picture_text1 h3 {
+  transform: translate(0%, 333%);
 }
 
 .picture_text1 a {
@@ -90,7 +87,7 @@ main {
   }
 
   .picture_text1 h3 {
-    transform: translate(0, 350%);
+    transform: translate(0%, -133%);
   }
 
   .openinfo,
@@ -115,7 +112,7 @@ main {
   }
 
   .picture_text1 {
-    margin-top: 170px;
+    margin-top: 80px;
   }
 
   #plantecontainer {
