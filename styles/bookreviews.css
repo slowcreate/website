@@ -61,6 +61,7 @@
   }
 
   #strikkekat {
+    display: block;
     position: absolute;
     width: 5%;
     aspect-ratio: 151/93;
@@ -77,6 +78,7 @@
     grid-column: 1;
   }
   #laesekat {
+    display: block;
     position: absolute;
     width: 6%;
     aspect-ratio: 151/93;
