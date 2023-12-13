@@ -15,6 +15,14 @@
   padding-top: 2rem;
 }
 
+#strikkekat {
+  display: none;
+}
+
+#laesekat {
+  display: none;
+}
+
 @media (min-width: 800px) {
   .grid_6-2 {
     display: grid;
